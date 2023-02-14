@@ -1,0 +1,148 @@
+#calculator{
+    text-align: center;
+    text-decoration:underline;
+    font: italic small-caps bold 16px/2 cursive;
+    font-weight: bolder;
+    color: rgb(170, 25, 78);
+    font-size: 60px;
+}
+
+.main-container{
+    background-image: url(images/bg-img2.jpg);
+    background-color: rgb(150, 150, 148);
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 47rem;
+    height: 40rem;
+}
+
+#input{
+    width: 26rem;
+    height: 80px;
+    background-color: rgb(209, 220, 248);
+    /* margin-top: 1em; */
+    margin-left: 170px;
+    margin-bottom: 10px;
+    border: 5px solid ;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#nums{
+    display: inline-grid;
+    grid-template-columns: repeat(3, 100%);
+    grid-template-rows: repeat(6, 50px);
+    grid-gap: 10px;
+    margin-left: 10rem;
+}
+
+#block0{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+#block1{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+#block2{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+#block3{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+#block4{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+#block5{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+#block6{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+#block7{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+#block8{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+#block9{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+
+#plus{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+#minus{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+#divide{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+#multiply{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+#dot{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lawngreen;
+    border-radius: 10px;
+}
+#ans{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 10px;
+}
+#clr{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+#footer{
+    padding-left: 37rem;
+}
